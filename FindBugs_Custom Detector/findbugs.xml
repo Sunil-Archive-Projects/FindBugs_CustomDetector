@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FindbugsPlugin pluginid="DEMO.findbugs.plugin"
+ defaultenabled="true"
+ provider="LMAX">
+
+ <Detector class="main.FilesLinesDetector" reports="FILES_LINES_CALLED"/>
+ <BugPattern abbrev="LMAX" type="FILES_LINES_CALLED" category="CORRECTNESS"/>
+</FindbugsPlugin>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MessageCollection>
+
+  <BugCode abbrev="LMAX">LMAX</BugCode>
+
+  <Plugin>
+    <ShortDescription>LMAX Custom Findbugs Detectors</ShortDescription>
+    <Details>Provides custom detectors for the LMAX codebase.</Details>
+  </Plugin>
+
+  <Detector class="main.FilesLinesDetector">
+    <Details>
+      Finds invocations of Files.lines()
+    </Details>
+  </Detector>
+
+  <BugPattern type="FILES_LINES_CALLED">
+    <ShortDescription>Files.lines() called</ShortDescription>
+    <LongDescription>Roopak-Sunil Found Bugs</LongDescription>
+    <Details>
+      <![CDATA[ <p>Don't call Files.lines(): it leaks files. Use MyFiles.lines() instead</p> ]]>
+    </Details>
+  </BugPattern>
+</MessageCollection>
