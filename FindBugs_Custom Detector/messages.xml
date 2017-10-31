@@ -21,4 +21,30 @@
       <![CDATA[ <p>Don't call Files.lines(): it leaks files. Use MyFiles.lines() instead</p> ]]>
     </Details>
   </BugPattern>
+
+  <BugPattern type="METHOD_STARTING_WITH_SMALL">
+    <ShortDescription>Custom_Bug::Method name starting with small letter</ShortDescription>
+    <LongDescription>Custom_Bug::Method name starting with small letter</LongDescription>
+    <Details>
+      <![CDATA[ <p>Don't start the file name with small alphabet</p> ]]>
+    </Details>
+  </BugPattern>
+
+  <BugPattern type="DOUBLE_DATA_TYPE_USED">
+     <ShortDescription>Custom_Bug::Double data type used</ShortDescription>
+     <LongDescription>Custom_Bug::Double data type used</LongDescription>
+     <Details>
+       <![CDATA[ <p>Don't use data type double inside the pipeline</p> ]]>
+     </Details>
+  </BugPattern>
+
+  <BugPattern type="ID_FIELD_WITHOUT_PARTITION">
+     <ShortDescription>Custom_Bug::Id field without partition</ShortDescription>
+     <LongDescription>Custom_Bug::Id field without partition</LongDescription>
+     <Details>
+       <![CDATA[ <p>Don't use id field without partition id</p> ]]>
+     </Details>
+  </BugPattern>
+
+
 </MessageCollection>

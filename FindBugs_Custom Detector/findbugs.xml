@@ -5,4 +5,7 @@
 
  <Detector class="main.FilesLinesDetector" reports="FILES_LINES_CALLED"/>
  <BugPattern abbrev="LMAX" type="FILES_LINES_CALLED" category="CORRECTNESS"/>
+ <BugPattern abbrev="LMAX" type="METHOD_STARTING_WITH_SMALL" category="CORRECTNESS"/>
+ <BugPattern abbrev="LMAX" type="DOUBLE_DATA_TYPE_USED" category="CORRECTNESS"/>
+ <BugPattern abbrev="LMAX" type="ID_FIELD_WITHOUT_PARTITION" category="CORRECTNESS"/>
 </FindbugsPlugin>
